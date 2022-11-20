@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import { Header } from './components/Header/index'
-import reactLogo from './assets/react.svg'
+import { Products } from './components/Products/index'
+//import data from './data/data'
 import './App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+  // const { products } = data
 
   return (
     <div className="App">
-       <Header/>
+       <Header />
       <h1>Holaaaaaaaaaa</h1>
+      <Products/>
      
     </div>
   )
