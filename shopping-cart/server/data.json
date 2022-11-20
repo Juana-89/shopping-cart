@@ -1,0 +1,67 @@
+[
+      {
+        "name": "Polo básico con motivo",
+        "price": 109.00,
+        "image": "https://images.pexels.com/photos/12820465/pexels-photo-12820465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "name": "Casaca negra de cuero",
+        "price": 149.00,
+        "image": "https://images.pexels.com/photos/8353170/pexels-photo-8353170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "name": "Polo básico de naranja",
+        "price": 69.00,
+        "image": "https://images.pexels.com/photos/12814813/pexels-photo-12814813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "name": "Polo básico blanco",
+        "price": 69.00,
+        "image": "https://images.pexels.com/photos/12512434/pexels-photo-12512434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "name": "Vestido con textura",
+        "price": 209.00,
+        "image": "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Vestido rojo",
+        "price": 209.00,
+        "image": "https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Blazer de dos botones",
+        "price": 149.00,
+        "image": "https://images.pexels.com/photos/7691089/pexels-photo-7691089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Blazer negro de un botón",
+        "price": 149.00,
+        "image": "https://images.pexels.com/photos/12972427/pexels-photo-12972427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Blazer beige",
+        "price": 149.00,
+        "image": "https://images.pexels.com/photos/8466228/pexels-photo-8466228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Vestido largo lúcuma",
+        "price": 199.00,
+        "image": "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Vestido rosa",
+        "price": 249.00,
+        "image": "https://images.pexels.com/photos/2235071/pexels-photo-2235071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Vestido amarillo",
+        "price": 249.00,
+        "image": "https://images.pexels.com/photos/1416377/pexels-photo-1416377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "name": "Pantalón con blazer color marfil",
+        "price": 299.00,
+        "image": "https://images.pexels.com/photos/5399402/pexels-photo-5399402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+]
