@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2? family=Roboto:wght@300&display=swap');
 
 .header{
     width: 100%;
-    background-color: #213435;
+    background-color: var(--bg-primary);
     padding:1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    color:#fff;
-    font-family: 'Roboto', sans-serif;
+    color: var(--fc-wh);
+    font-family: var(--font-roboto);
     top: 0;
     left: 0;
     right: 0;
@@ -24,8 +23,8 @@
     }
     &__a{
         padding: 2px 7px 2px 7px;
-        color: #eeeeee;
-        border: 1px solid #ccc;
+        color: var(--fc-wh);
+        border: 1px solid var(--fc-wh);
         text-decoration: none;
     }
 
@@ -40,7 +39,7 @@
     &__svg{
         width:2em;
         height:2em;
-        fill:#fff;
+        fill:var(--fc-wh);
     }
     &__nav{
         @media screen and (max-width:480px){
@@ -75,7 +74,7 @@
         }
     }
     &__li:hover{
-       background-color: #46685b;
+       background-color: var(--bg-li-hover);
 
     }
 }
