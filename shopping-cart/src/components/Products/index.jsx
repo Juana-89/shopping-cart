@@ -15,8 +15,8 @@ export const Products = () => {
           ? products.map((product) => (
               <div key={product._id} className="card">
                 <img src={product.image} />
-                <h1 className="name">
-                  <a href="#">{product.name}</a>
+                <h1 id="name">
+                  <a href="#" className='hiper'>{product.name}</a>
                 </h1>
                 <h2>S/ {product.price}.00</h2>
                 <button>
