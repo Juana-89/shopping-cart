@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Announcements } from "./components/Announcements/index";
 import { Header } from "./components/Header/index";
 import { Hero } from "./components/Hero/index";
 import { Products } from "./components/Products/index";
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <Announcements />
       <Header />
       <Hero />
       <Products />
