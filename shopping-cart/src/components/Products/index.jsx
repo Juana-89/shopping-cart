@@ -19,7 +19,7 @@ export const Products = () => {
                   <a href="#" className='hiper'>{product.name}</a>
                 </h1>
                 <h2>S/ {product.price}.00</h2>
-                <button>
+                <button className="buttonAdd">
                   Agregar a carrito{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
