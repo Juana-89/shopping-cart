@@ -8,7 +8,7 @@ export const Products = () => {
   }, []);
 
   return (
-    <main>
+    <main className="products">
       <h1>Nuestros productos</h1>
       <div className="container">
         {products != null
