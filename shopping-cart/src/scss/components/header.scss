@@ -9,11 +9,11 @@
     align-items: center;
     color: var(--fc-wh);
     font-family: var(--font-roboto);
-    // top: 0;
     left: 0;
     right: 0;
     z-index:30;
-    position: fixed;
+    position: sticky;
+    top: 0;
     text-align: left;
     transition: all 400ms;
 
@@ -79,5 +79,3 @@
 
     }
 }
-
-
