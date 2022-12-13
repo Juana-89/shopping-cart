@@ -3,6 +3,7 @@ import { Announcements } from "./components/Announcements/index";
 import { Header } from "./components/Header/index";
 import { Hero } from "./components/Hero/index";
 import { Products } from "./components/Products/index";
+import { Publisher } from "./components/Publisher/index";
 //import data from './data/data'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Hero />
       <Products />
+      <Publisher />
     </div>
   );
 }
