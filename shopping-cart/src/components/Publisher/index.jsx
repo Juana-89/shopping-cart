@@ -4,11 +4,12 @@ export const Publisher = () => {
   const [close, setClose] = useState(true);
  
   return (
-    <section
+    <section className="shadow" onClick={() => setClose(!close)}
+    style={{ display: close ? "block" : "none" }}>
+    <div
       className="containerPublisher"
-      style={{ display: close ? "block" : "none" }}
     >
-      <div className="shadow" onClick={() => setClose(!close)}></div>
+     
       <form className="content">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +47,7 @@ export const Publisher = () => {
           </svg>
         </button>
       </form>
+    </div>
     </section>
   );
 };

@@ -1,7 +1,7 @@
 .containerPublisher{
     background: var(--bg-four);
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    // left: 50%;
     transform: translate(0, -50%);
     width: 25%;
     border-radius: 10px;
@@ -14,12 +14,18 @@
     text-align: center;
     transform: translateY(-50%);
     transition: transform .5s, color .3s;
+    z-index: 11;
+    // overflow: visible;
+    transform: scale(1);
+    max-height: 100%;
+    outline: 0px;
+    flex: 0 0 auto;
+    position: relative;
 }
 
 .shadow{
-    content:'';
+    // content:'';
     position: fixed;
-    display: none;
     top: 0;
     left: 0;
     bottom: 0;
@@ -28,6 +34,15 @@
     width: 100%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    // overflow: auto;
+    animation-duration: 0.35s;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both
 }
 
 .form{
