@@ -1,0 +1,25 @@
+.footer{
+    background-color: var(--bg-primary);
+    color:var(--fc-footer);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding:1em;
+
+    &__container{
+        max-width: 41.67%;
+    }
+    &__h1{
+        font-style: italic;
+        flex-grow: 1;
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    &__paragraph{
+        line-height: 1.87;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
