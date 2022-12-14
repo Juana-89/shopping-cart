@@ -4,6 +4,7 @@ import { Header } from "./components/Header/index";
 import { Hero } from "./components/Hero/index";
 import { Products } from "./components/Products/index";
 import { Publisher } from "./components/Publisher/index";
+import { Footer } from "./components/Footer/index";
 //import data from './data/data'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Products />
       <Publisher />
+      <Footer />
     </div>
   );
 }
