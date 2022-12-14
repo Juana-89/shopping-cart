@@ -2,15 +2,25 @@ import { useState, useEffect } from "react";
 
 export const Publisher = () => {
   const [close, setClose] = useState(true);
+  const [showDiv, setShowDiv] = useState(false);
  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Hello daddy, hello mom, chchchch cherry bomb!")
+  }
+  useEffect(() => {
+  setTimeout(() => {
+    setShowDiv(!showDiv)
+  },5000)
+},[])
+
   return (
     <section className="shadow" onClick={() => setClose(!close)}
-    style={{ display: close ? "block" : "none" }}>
+    style={{ display: showDiv ? "block" : "none" }}>
     <div
       className="containerPublisher"
     >
-     
-      <form className="content">
+      <form className="content" onSubmit={handleSubmit}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
@@ -50,4 +60,5 @@ export const Publisher = () => {
     </div>
     </section>
   );
-};
+}
+
