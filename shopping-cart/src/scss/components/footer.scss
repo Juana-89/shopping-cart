@@ -1,14 +1,29 @@
 .footer{
     background-color: var(--bg-primary);
     color:var(--fc-footer);
-    display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // flex-flow: row wrap;
     align-items: center;
     padding:1em;
+    // justify-content: space-between;
+    display: flex;
+    display: -webkit-flex;
+    display: flow-root;
 
-    &__container{
+    &__containerUp{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+    width:100%;
+    }
+
+    &__logo{
+        display:flex;
         max-width: 41.67%;
     }
+
     &__h1{
         font-style: italic;
         flex-grow: 1;
@@ -16,10 +31,64 @@
         font-size: 25px;
     }
 
+    &__col1{
+        max-width: 41.67%;
+    }
+
+    &__col2{
+        max-width: 16.67%;
+        padding-left: 2em;
+    }
+
     &__paragraph{
         line-height: 1.87;
         font-size: 16px;
         font-weight: 400;
+    }
+
+    &__menu_title{
+      padding-left:2em;
+    }
+    &__rrss{
+        padding-bottom: 2em;
+    }
+
+    &__link_menu{
+        list-style: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    &__a_menu{
+        color:var(--fc-footer);
+    }
+
+    &__a_menu:hover{
+        color:var(--fc-wh);
+        transition: all 400ms;
+    }
+
+    &__ico{
+        margin: 24.5px;
+    }
+
+    &__ico:hover{
+        color: var(--fc-wh);
+        cursor: pointer;
+        transition: all 400ms;
+    }
+
+    &__containerDown{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid;
+        justify-content: space-around;
+    }
+
+    &__designer{
+        padding: 1.5em;
+        text-align: right;
+
     }
 
 }
