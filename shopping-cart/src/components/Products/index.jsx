@@ -3,6 +3,7 @@ import { Item } from "../Item/index";
 import { allProducts } from "../../../api/models/functions";
 export const Products = () => {
   const [products, setProducts] = useState(null);
+  const [showCart, setShowCart] = useState(false);
   useEffect(() => {
     allProducts(setProducts);
   }, []);
@@ -19,7 +20,7 @@ export const Products = () => {
                   <a href="#" className='hiper'>{product.name}</a>
                 </h1>
                 <h2>S/ {product.price}.00</h2>
-                <button className="buttonAdd">
+                <button className="buttonAdd" onClick={showCart}>
                   Agregar a carrito{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -82,13 +82,12 @@
         display: flex;
         flex-wrap: wrap;
         border-top: 1px solid;
-        justify-content: space-around;
+        // justify-content: space-around;
     }
 
     &__designer{
         padding: 1.5em;
-        text-align: right;
-
+        margin-left: 220px;
     }
 
 }
